@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-no-foreach",
+  "version": "1.0.0",
+  "description": "A plugin forbidding the use of [].forEach in favor of for..of",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flying-sheep/eslint-plugin-no-foreach.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Philipp A.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/flying-sheep/eslint-plugin-no-foreach/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  },
+  "homepage": "https://github.com/flying-sheep/eslint-plugin-no-foreach#readme"
+}
