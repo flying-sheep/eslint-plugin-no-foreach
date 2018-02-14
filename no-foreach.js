@@ -3,7 +3,7 @@
 module.exports = {
 	meta: {
 		docs: {
-			description: 'disallow forEach in favor of for..of',
+			description: 'disallow forEach in favor of for...of',
 			category: 'Best Practices',
 			recommended: false,
 		},
@@ -14,7 +14,7 @@ module.exports = {
 			if (node.property.name === 'forEach') {
 				context.report({
 					node,
-					message: "Unexpected 'forEach' method. Use for..of instead.",
+					message: "Unexpected 'forEach' method. Use for...of instead.",
 				})
 			}
 		}
