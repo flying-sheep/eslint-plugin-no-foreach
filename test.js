@@ -16,7 +16,7 @@ tester.run('no-foreach', no_foreach, {
 	invalid: [
 		{
 			code: '[].forEach(x => {})',
-			errors: [{ message: "Unexpected 'forEach' method. Use for..of instead." }]
+			errors: [{ message: "Unexpected 'forEach' method. Use for...of instead." }]
 		}
 	],
 })
